@@ -1,0 +1,95 @@
+<br /><div class="textbackground">
+  <br />
+<h1>Code Snippets</h1>
+
+    <div class="box">
+      <h4>Temperature Conversion</h4>
+      <p>
+        This Ruby program will prompt the user for a temperature in degrees Celsius and let the user know what the corresponding temperature is in Fahrenheit.
+      </p>
+    </div>
+
+    <div class="box">
+      <pre><code class="language-ruby">
+puts &quot;enter a degree in celcius&quot;
+celcius = gets.chomp .to_f
+ 
+def c_to_f(celcius)
+  return (celcius * 9/5) + 32
+end
+
+puts &quot;#{celcius} celcius is #{c_to_f(celcius)} farenheight&quot;</code></pre>
+    </div>
+
+    <br class="clear">
+
+    <div class="box">
+      <pre><code class="language-ruby">
+puts &quot;Enter a number&quot;
+number = gets.chomp .to_i
+    
+def ordinal(number)
+  val1 = number % 10
+  
+  if number == 11 || number == 12 || number == 13
+    return &quot;th&quot;
+  elsif val1 == 1 
+    return &quot;st&quot;
+  elsif val1 == 2
+    return &quot;nd&quot;
+  elsif val1 == 3
+    return &quot;rd&quot; 
+  else 
+    return &quot;th&quot;
+  end
+end
+
+puts &quot;#{(number)} is the #{(number)}#{ordinal(number)} number&quot;</code></pre>
+    </div>
+
+    <div class="box">
+      <h4>Ordinal Challenge</h4>
+      <p>
+        This Ruby program will convert a plain number
+        to the ordinal of the number. So for example,
+        if the user enters 2, it will display 2nd, if
+        the user enters 3, it will display 3rd, etc.
+      </p>
+    </div>
+
+    <br class="clear" />
+
+    <div class="box">
+      <h4>Foobar</h4>
+      <p>
+        This Ruby program is an adaptation of a classic technical
+        interview problem which displays sequences
+        of the Foobar pattern.
+      </p>
+    </div>
+
+    <div class="box">
+      <pre><code class="language-ruby">
+puts &quot;how many items do you want to see?&quot;
+number = gets.chomp.to_i
+
+array = []
+
+n = 1
+(1..number).each do |n|
+  if (n % 3 == 0) &amp;&amp; (n % 5 ==0)
+    array &lt;&lt; &quot;FooBar&quot;
+  elsif n % 5 == 0
+    array &lt;&lt; &quot;Bar&quot;
+  elsif n % 3 == 0
+    array &lt;&lt; &quot;Foo&quot;
+  else 
+    array &lt;&lt; &quot;#{n}&quot;
+  end
+end
+
+puts array</code></pre>
+    </div>
+  <br class="clear" />
+</div>
+    
