@@ -12,5 +12,4 @@ class HomeController < ApplicationController
 
   def codesamp
   end
-
 end
