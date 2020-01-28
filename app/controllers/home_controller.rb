@@ -12,4 +12,8 @@ class HomeController < ApplicationController
 
   def codesamp
   end
+
+  def other
+  end
+  
 end
