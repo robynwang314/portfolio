@@ -99,3 +99,45 @@ a {
 a:hover {
   color: #1c6b1a;
 }
+
+.flex-container {
+  display: flex;    
+  overflow-x: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.full-width2 {
+  max-width: 100%;
+  width: 42.5%;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure {
+  max-width: 100%;
+  height: auto;
+  margin-right: 5%;
+}
+
+.flex .test {
+  position: relative;
+  float: left;
+  margin-right: 5%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 200px;
+ width: auto;
+}
+
+.flex {
+  display: flex;    
+  overflow-x: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+}
