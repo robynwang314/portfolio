@@ -58,15 +58,27 @@ h1 {
   font-weight: 700;
 }
 
-h5 {
+h2 {
   text-align: center;
-  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 h3 {
   text-align: center;
   font-weight: bold;
   font-family: 'PT Serif', serif;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
 }
 
 p {
@@ -161,7 +173,6 @@ a:hover {
   word-spacing: -3px;
   letter-spacing: -3px;
 }
-
 
 .cell:hover .overlay {
   width: 100%;
