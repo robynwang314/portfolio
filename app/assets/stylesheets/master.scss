@@ -85,7 +85,6 @@ p {
   text-align: center;
 }
 
-
 .skills-and-tools{
   max-width: 400px;
   margin: 40px auto;
@@ -203,4 +202,20 @@ a:hover {
   transition: .5s ease;
 }
 
+.project {
+  display: block;
+  width: 42.5%;
+  margin-top: 50px;
+  text-align: center;
+  height: 42.5%;
+}
+
+.image {
+  max-height: 55%;
+  max-width: 55%;
+  height: 55%;
+  width: 55%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
 
