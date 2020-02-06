@@ -4,8 +4,12 @@ Rails.application.routes.draw do
   get 'about', to: 'home#about'
   get 'resume', to: 'home#resume'
   get 'codesample', to: 'home#codesamp'
-  get 'other', to: 'home#other'
+  
 
   get 'overview', to: 'apps#overview'
   get 's_t', to: 'apps#s_t'
+
+  get 'other', to: 'others#overview'
+  get 'marcomm', to: 'others#marcomm'
+  get 'research', to: 'others#research'
 end
