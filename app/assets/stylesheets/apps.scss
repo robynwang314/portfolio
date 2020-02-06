@@ -1,3 +1,18 @@
-// Place all the styles related to the apps controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icon {
+  margin: 20px 0;
+}

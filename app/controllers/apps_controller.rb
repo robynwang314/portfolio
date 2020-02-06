@@ -6,5 +6,4 @@ class AppsController < ApplicationController
   def s_t
   end
   
-  
 end
