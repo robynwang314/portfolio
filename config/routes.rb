@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   
 
   get 'overview', to: 'apps#overview'
-  get 's_t', to: 'apps#s_t'
+  get 'skillstools', to: 'apps#s_t'
 
   get 'other', to: 'others#overview'
   get 'marcomm', to: 'others#marcomm'
