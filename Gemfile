@@ -71,4 +71,4 @@ end
 
 gem 'mini_racer'
 
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 5.12.0'

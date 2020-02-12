@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome-sprockets";
 @import "font-awesome";
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700|Playfair+Display|Raleway:400,800&display=swap');
@@ -11,6 +12,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Playfair Display', serif;
+}
+
+.textbackground {
+  margin: 2%;
+  padding: 2%;
 }
 
 .navbar {
@@ -196,3 +202,25 @@ a:hover {
   padding-bottom: 10px;
 }
 
+.iconcell {
+  position: relative;
+  display: inline-block;
+  word-spacing: normal;
+  letter-spacing: normal;
+  white-space : normal;
+  height: 100%;
+  max-width: 100%;
+  width: 45%;
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 2px;
+}
+
+.caption {
+  display: flex;
+  font-size: 80%;
+  word-wrap: normal;
+  text-align: center;
+  justify-content: center;
+}
