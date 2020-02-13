@@ -17,6 +17,7 @@ body {
 .textbackground {
   margin: 2%;
   padding: 2%;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar {
@@ -34,16 +35,11 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-
 .clear {
   clear: both;
 }
 
-.textbackground {
-  background-color: rgba(255, 255, 255, 0.9);
- }
-
- .me {
+.me {
   height: 150px;
   border-radius: 100%;
   border-style: solid;
@@ -97,18 +93,11 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.flex-container {
-  display: flex;
-  overflow-x: auto;
-}
 
-.scrolling {
-  white-space: nowrap;
-  word-spacing: -3px;
-  letter-spacing: -3px;
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
+
+
+
+
 
 .cell {
   position: relative;
@@ -133,29 +122,6 @@ a:hover {
   padding-bottom: 10px;
 }
 
-.scroll-container {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-
-.icell {
-  display: inline-block;
-  word-spacing: normal;
-  letter-spacing: normal;
-  white-space : normal;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.iscrolling {
-  white-space: nowrap;
-  word-spacing: -3px;
-  letter-spacing: -3px;
-}
-
 .cell:hover .overlay {
   width: 100%;
 }
@@ -163,7 +129,7 @@ a:hover {
 .text {
   white-space: normal; 
   color: white;
-  font-size: 8px;
+  font-size: 1.25vw;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -185,42 +151,5 @@ a:hover {
   transition: .5s ease;
 }
 
-.project {
-  display: block;
-  width: 42.5%;
-  margin-top: 50px;
-  text-align: center;
-  height: 42.5%;
-}
 
-.image {
-  max-height: 55%;
-  max-width: 55%;
-  height: 55%;
-  width: 55%;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
 
-.iconcell {
-  position: relative;
-  display: inline-block;
-  word-spacing: normal;
-  letter-spacing: normal;
-  white-space : normal;
-  height: 100%;
-  max-width: 100%;
-  width: 45%;
-  text-align: center;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  padding: 2px;
-}
-
-.caption {
-  display: flex;
-  font-size: 80%;
-  word-wrap: normal;
-  text-align: center;
-  justify-content: center;
-}

@@ -1,3 +1,100 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.hometextbackground {
+  margin: 2%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.scroll-container {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flex-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.scrolling {
+  white-space: nowrap;
+  word-spacing: -3px;
+  letter-spacing: -3px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.iconcell {
+  position: relative;
+  display: inline-block;
+  word-spacing: normal;
+  letter-spacing: normal;
+  white-space : normal;
+  height: 100%;
+  max-width: 100%;
+  width: 45%;
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 2px;
+}
+
+.caption {
+  display: flex;
+  font-size: 80%;
+  word-wrap: normal;
+  text-align: center
+}
+
+.apps-cont {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(225, 227, 225, 0.9);
+}
+
+.appsfull-width {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.appbox {
+  float: left;
+  width: 45%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.indexbox {
+  position: relative;
+  display: inline-block;
+  float: left;
+  word-spacing: normal;
+  letter-spacing: normal;
+  white-space : normal;
+  max-width: 100%;
+  text-align: center;
+}
+
+.appsoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  width: 0;
+  max-height: 100%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.indexbox:hover .appsoverlay {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.underline {
+  height: 3px;
+  background-color: rgba(28, 107, 26, 0.6);
+  border: none;
+  width: 20%;
+}
