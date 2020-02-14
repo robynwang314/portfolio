@@ -100,28 +100,6 @@
   width: 30%;
 }
 
-.pr-box {
-  margin: 5%;
-  border: 1px solid rgba(28, 107, 26, 0.3);
-  border-radius: 8px;
-  padding: 5%;
-}
-
-.pr-container {
-  margin: 0px;
-  float: left;
-}
-
-.pr-sect {
-  margin-bottom: 15px;
-}
-
-
-
-
-
-
-
 
 .prbox {
   position: relative;
@@ -130,7 +108,7 @@
   width: 33%;
   border: 1px solid rgba(28, 107, 26, 0.3);
   overflow-y: hidden;
-  background: #f5f6f7;
+  background: rgba(28, 107, 26, 0.75);
 }
   
 .prbox:after {
