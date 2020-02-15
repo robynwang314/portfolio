@@ -22,6 +22,10 @@
   margin-bottom: 30px;
 }
 
+.title {
+  margin-top: 8%;
+}
+
 .iconcell {
   position: relative;
   display: inline-block;
@@ -132,7 +136,7 @@
   padding-bottom: 100%;
 }
 
-.content {
+.pr-content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -144,6 +148,15 @@
   width: 100%;
   height: 100%;
   filter: brightness(100%);
+
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.pr-content:hover .pr-img {
+  opacity: 0.5;
 }
 
 .learn-more {
@@ -176,13 +189,25 @@
   padding-bottom: 100%;
 }
 
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
 .comm-head {
   margin: 5%;
   margin-top: 0;
   font-weight: bold;
   font-size: 2.5vw;
 }
- 
+
+.comm-img {
+  width: 100%;
+  height: auto;
+}
 
 .prog-col {
   position: relative;
@@ -198,6 +223,7 @@
 .programs {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
+  margin-top: 6%;
 }
+
 
