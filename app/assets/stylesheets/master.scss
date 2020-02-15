@@ -99,6 +99,9 @@ a:hover {
 
 
 
+
+
+
 .cell {
   position: relative;
   display: inline-block;
@@ -122,21 +125,11 @@ a:hover {
   padding-bottom: 10px;
 }
 
+
 .cell:hover .overlay {
   width: 100%;
 }
 
-.text {
-  white-space: normal; 
-  color: white;
-  font-size: 1.25vw;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
 
 .overlay {
   position: absolute;
@@ -150,6 +143,3 @@ a:hover {
   height: 85%;
   transition: .5s ease;
 }
-
-
-
