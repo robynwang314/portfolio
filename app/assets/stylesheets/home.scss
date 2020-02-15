@@ -52,7 +52,7 @@
 .apps-cont {
   padding-left: 2%;
   padding-right: 2%;
-  background-color: rgba(225, 227, 225, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .appsfull-width {
@@ -179,7 +179,7 @@
   width: 23%;
   height: 100%;
   margin: 1%;
-  padding-bottom: 10%;
+  padding-bottom: 14%;
   overflow-y: hidden;
 }
   
@@ -189,24 +189,31 @@
   padding-bottom: 100%;
 }
 
-.content {
+.comm-content {
   position: absolute;
   width: 100%;
   height: 100%;
   word-wrap: break-word;
   text-align: center;
+ 
 }
 
 .comm-head {
   margin: 5%;
   margin-top: 0;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.25vw;
 }
 
 .comm-img {
   width: 100%;
-  height: auto;
+  max-height: 100%;
+}
+
+.programs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6%;
 }
 
 .prog-col {
@@ -220,10 +227,17 @@
   overflow-y: hidden;
 }
 
-.programs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 6%;
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+
+.top {
+  color: grey;
 }
 
 
