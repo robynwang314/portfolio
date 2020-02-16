@@ -49,9 +49,8 @@
   <br /><br />
 
   <center> 
-    <a class="viewportfolio" href="#webapps">
-      View Portfolio 
-      <br />
+    <a href="#webapps">
+      <h5>View Portfolio</h5> 
       <i class="fa fa-angle-down"></i>
     </a>
   </center>
@@ -59,7 +58,7 @@
   <br class="clear" />
 
 
-  <div class="apps-cont" id="webapps">
+  <!-- <div class="apps-cont" id="webapps">
     <hr/><br />
       <h3>Web Apps</h3>
       <hr class="underline">
@@ -128,14 +127,99 @@
         </div>
       </div>
     <br class="clear" /><br />
+ -->
+
+
+
+    <div class="appscont" id="webapps">
+    <hr/><br />
+      <h3>Web Apps</h3>
+      <hr class="underline">
+
+
+      <div class="apps-box">
+        <h5>Yelp Clone</h5>
+        <div class="app-box">
+        <%= image_tag 'nomster.png', class: 'apps-full-width'%>
+        <div class="apps-overlay">
+          <div class="app-text">
+          A Yelp clone that integrates with the Google Maps API
+          and includes features like user comments, star ratings,
+          image uploading, and user authentication. <br /><br />
+            <font size="2">
+            <%= link_to '~View App~', "https://nomster-robyn-wang.herokuapp.com", target: :_blank %>
+            </font>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div class="apps-box">
+        <h5>Two-Sided Marketplace</h5>
+      <div class="app-box">
+        <%= image_tag 'flixter.png', class: 'apps-full-width'%>
+        <div class="apps-overlay">
+          <div class="app-text">
+          A two-sided, video-streaming marketplace platform that
+          features credit card payment capabilities, user role
+          management, complex user interfaces, and advanced
+          database relationships. <br /><br />
+            <font size="2">
+            <%= link_to '~View App~', "https://flixter-robyn-wang.herokuapp.com", target: :_blank %> 
+            </font>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      <br class="clear" />
+
+
+      <div class="apps-box">
+        <h5>SpotifyApp</h5>
+        <div class="app-box">
+          <%= image_tag 'homepage.png', class: 'apps-full-width'%>
+        <div class="apps-overlay">
+          <div class="app-text">
+          A music search platfrom allowing users to search and view an artist's top 10 songs, and log in to view their existing playlists using Spotify's API. <br /><br />
+            <font size="2">
+              <%= link_to '~View App~', "http://project-robyn-wang.herokuapp.com", target: :_blank  %>
+            </font>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="apps-box">
+        <h5>Note App</h5>
+        <div class="app-box">
+        <%= image_tag 'NoteApp.png', class: 'apps-full-width'%>
+        <div class="apps-overlay">
+          <div class="app-text">
+          Dynamic note taking app that uses Facebook's ReactJS, JavaScript/ES6, and Axios to let users to create, edit, delete, and tag notes. <br /><br />
+            <font size="2">
+              <%= link_to '~View App~', "https://note-app-robyn-wang.herokuapp.com/", target: :_blank %> 
+            </font>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+    <br class="clear" /><br />
+
+
       
     <a href="/overview">
-      <h5><u>See More</u></h5>
+      <h5>See More</h5>
     </a>
       
     <br /><br class="clear" />
     <hr/>
-  </div>
+ </div>
 
 <!--   <div class="error">Site Under Construction</div> -->
   
@@ -177,7 +261,7 @@
     <div class="prbox">
       <div class="content">
         <a href="/marcomm">
-          <h5><div class="learn-more"><u>Learn More</u></div></h5>
+          <h5><div class="learn-more">Learn More</div></h5>
         </a>
       </div>
     </div>
@@ -195,7 +279,7 @@
   <div class="commrow">
     <div class="commcol">
       <div class="comm-content">
-        <div class="comm-head">Experiemental</div>
+        <div class="comm-head">Experiement</div>
 
           <img src="/assets/expirement-a669d82088ed265a036603de8d3a1f1acaa1311052bd1223dceea398859dbdca.png" alt="Experiment" class="comm-img">
 
@@ -256,8 +340,8 @@
   
 
 <br class="clear" /><br />
-  <a href="/overview">
-    <h5><u>+ More</u></h5>
+  <a href="/research">
+    <h5>+ More</h5>
   </a>
 <br /><br />
   <center><a class="top" href="#">Back To Top</a></center>
