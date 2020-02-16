@@ -1,17 +1,19 @@
+
 .hometextbackground {
   margin: 2%;
   background-color: rgba(255, 255, 255, 0.9);
+  padding: 1%;
 }
 
 .scroll-container {
   margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .flex-container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .scrolling {
@@ -19,7 +21,7 @@
   word-spacing: -3px;
   letter-spacing: -3px;
   margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .title {
