@@ -7,10 +7,10 @@
 }
 
 .image {
-  max-height: 55%;
-  max-width: 55%;
-  height: 55%;
-  width: 55%;
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
   padding-top: 5px;
   padding-bottom: 10px;
 }
@@ -21,3 +21,4 @@
   font-weight: bold;
   text-align: center;
 }
+
