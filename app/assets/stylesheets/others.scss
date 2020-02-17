@@ -22,3 +22,80 @@
   text-align: center;
 }
 
+.nav-cont {
+  margin: 2%;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.nav-col {
+  font-size: 1.75vw;
+  text-align: center;
+  line-height: 1;
+  border: 1px solid rgba(28, 107, 26, 0.3);
+  padding: .75%;
+  margin: .5%;
+  border-radius: 3px;
+}
+
+.nav-col:hover {
+  color: grey;
+  border: 1px solid grey;
+  text-decoration: none;
+}
+
+.marcomm-cont {
+  padding: .75%;
+  margin: 1.5%;
+  margin-bottom: 7%;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+}
+
+.project-cont {
+  display: flex;
+  margin-top: 3%;
+}
+
+.cover-cont {
+  width: 35%;
+}
+
+.cover-image {
+  max-width: 100%;
+}
+
+.cover-cont:hover .cover-image {
+  opacity: 0.5;
+}
+
+.description-cont {
+  width: 65%;
+  text-align: center;
+  padding: 2%;
+  padding-top: 5%;
+  word-wrap: break-word;
+  font-size: 2.1vw;
+}
+
+.pr-list {
+  font-size: 1.75vw;
+  text-align: left;
+  margin-bottom: 0;
+  padding-left: 5%;
+  padding-right: 1%;
+}
+
+.pr-description-cont {
+  width: 65%;
+  text-align: center;
+  padding: 2%;
+  padding-top: 0%;
+  word-wrap: break-word;
+  font-size: 2.1vw;
+}
