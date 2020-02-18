@@ -12,10 +12,12 @@
 
 .icons {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon {
-  margin: 20px 0;
+  width: 15%;
 }
 
 .app-des {
