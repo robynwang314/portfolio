@@ -13,11 +13,16 @@
 .icons {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .icon {
   width: 15%;
+  max-width: 15%;
+  max-height: auto;
+  margin: 1%;
+  font-weight: bold;
+  font-size: 2vw;
 }
 
 .app-des {
