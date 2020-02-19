@@ -20,16 +20,11 @@
 .icon {
   width: 15%;
   max-width: 15%;
+  height: auto;
   margin: 1%;
   font-weight: bold;
   font-size: 2vw;
   border: 1px solid black;
-}
-
-.icon:after {
-  content: "";
-  display: block;
-  padding: 1%;
 }
 
 .app-des {
