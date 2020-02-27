@@ -5,6 +5,12 @@
   padding: 1%;
 }
 
+.name {
+
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.9), 0 0 10px #616263;
+  text-decoration: underline;
+}
+
 .scroll-container {
   margin-top: 5%;
   margin-left: 4%;
@@ -47,7 +53,7 @@
 .caption {
   display: flex;
   justify-content: space-evenly;
-  font-size: 80%;
+  font-size: 95%;
   word-wrap: normal;
   text-align: center;
 }
