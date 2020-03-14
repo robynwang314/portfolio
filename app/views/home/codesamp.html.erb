@@ -11,14 +11,14 @@
 
     <div class="box">
       <pre><code class="language-ruby">
-puts &quot;enter a degree in celcius&quot;
-celcius = gets.chomp .to_f
+puts &quot;enter degrees in celcius&quot;
+degree = gets.chomp.to_f
  
-def c_to_f(celcius)
-  return (celcius * 9/5) + 32
+def f(degree)
+  (degree * 9/5) + 32
 end
 
-puts &quot;#{celcius} celcius is #{c_to_f(celcius)} farenheight&quot;</code></pre>
+puts &quot;#{degree} celcius is #{f(degree)} fahrenheit&quot;</code></pre>
     </div>
 
     <br class="clear">
@@ -29,18 +29,14 @@ puts &quot;Enter a number&quot;
 number = gets.chomp .to_i
     
 def ordinal(number)
-  val1 = number % 10
-  
-  if number == 11 || number == 12 || number == 13
-    return &quot;th&quot;
-  elsif val1 == 1 
-    return &quot;st&quot;
-  elsif val1 == 2
-    return &quot;nd&quot;
-  elsif val1 == 3
-    return &quot;rd&quot; 
+  if number != 11 && number % 10 == 1 
+    &quot;st&quot;
+  elsif number != 12 && number % 10 == 2
+    &quot;nd&quot;
+  elsif number != 13 && number % 10 == 3
+    &quot;rd&quot; 
   else 
-    return &quot;th&quot;
+    &quot;th&quot;
   end
 end
 
